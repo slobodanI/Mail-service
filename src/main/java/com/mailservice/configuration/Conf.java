@@ -19,10 +19,10 @@ public class Conf {
 	    @Bean
 	    public ConnectionFactory connectionFactory() {
 	        CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
-//	        connectionFactory.setUsername("falysqic");
-//	        connectionFactory.setPassword("WGXFaLcXLNsampQVJGT8FO-6nXQne-zh");
-//	        connectionFactory.setVirtualHost("falysqic");
-//	        connectionFactory.setHost("wasp.rmq.cloudamqp.com");
+	        connectionFactory.setUsername("zpbtlzju");
+	        connectionFactory.setPassword("JzrwM8K1auo_bde4VsNpo6HjMWAJwPZz");
+	        connectionFactory.setVirtualHost("zpbtlzju");
+	        connectionFactory.setHost("bee.rmq.cloudamqp.com");
 //	        connectionFactory.setPort();
 	        return connectionFactory;
 	    }
